@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Cadastro from './Cadastro.jsx'
 import Login from './Login.jsx'
 import SidebarTest from './sidebarTest.jsx'
+import Perfil from './Perfil.jsx'
 
 
 const router = createBrowserRouter(
@@ -30,7 +31,7 @@ const router = createBrowserRouter(
         },
         {
             path:"/perfil",
-            element:<SidebarTest/>
+            element:<Perfil/>
         },
     ]
 )
